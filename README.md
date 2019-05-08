@@ -17,7 +17,7 @@ See `mujoco/generate.py` for an example. This should generate image sequences li
   <img src="https://drive.google.com/uc?export=view&id=1TLUQo3ekl9Err_Mi_7hK77Q2bAUwlTwG" width="19%">
 </p>
 
-Note that in the paper, we only used the first and final image instead of the full sequence. To only render these images, set `render_freq` equal to `drop_steps_max`:
+Note that in the paper, we only used the first and final image instead of the full sequence. To only render these images, set `render_freq` equal to `drop_steps_max-1`:
 ```
 python mujoco/generate.py --drop_steps_max 1000 --render_freq 1000 \
     --num_images 10 --img_dim 64 --min_objects 2 --max_objects 4 --output_path rendered/initial_final/
