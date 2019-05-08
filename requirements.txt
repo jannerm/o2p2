@@ -1,0 +1,6 @@
+numpy==1.16.1
+scipy==1.2.1
+mujoco-py==1.50.1.68
+matplotlib==3.0.2
+torch==0.4.1
+tqdm==4.31.1
