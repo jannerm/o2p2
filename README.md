@@ -10,11 +10,11 @@ See `mujoco/generate.py` for an example. This should generate image sequences li
 
 <br>
 <p float="center">
-  <img src="https://drive.google.com/uc?export=view&id=1iJDYIdx99qdcwTIsMM1Q7n0I3_j0DiXY" width="19%">
-  <img src="https://drive.google.com/uc?export=view&id=1ojpswJna-mO0jJsbUAVkm5ZfBhDZVyXI" width="19%">
-  <img src="https://drive.google.com/uc?export=view&id=1vIGQwLQuXOLLNUv8GyiCmv9edAiqWNxb" width="19%">
-  <img src="https://drive.google.com/uc?export=view&id=1jOLp9agc-WF1oi9AiiU16VvyPf4A9Ipw" width="19%">
-  <img src="https://drive.google.com/uc?export=view&id=1TLUQo3ekl9Err_Mi_7hK77Q2bAUwlTwG" width="19%">
+  <img src="https://drive.google.com/uc?export=view&id=19ngbpTpDET4xN2WuCPpXDRDufZHroPge" width="19%">
+  <img src="https://drive.google.com/uc?export=view&id=1wbmvCCFKubLMvltugDeDDyH1erNHPlRS" width="19%">
+  <img src="https://drive.google.com/uc?export=view&id=1nWuiHTxQPXBBbcnxLfZ9DI6eIYZzcvJh" width="19%">
+  <img src="https://drive.google.com/uc?export=view&id=1jmNgqCUB6Lgq-fmEyJa5PDXE3O0dAxiO" width="19%">
+  <img src="https://drive.google.com/uc?export=view&id=1BmgZL1BCFPOzp7rd-C7HNwf79QLjUseA" width="19%">
 </p>
 
 Note that in the paper, we only used the first and final image instead of the full sequence. To only render these images, set `render_freq` equal to `drop_steps_max-1`:
